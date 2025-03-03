@@ -1,0 +1,17 @@
+// main colors
+$primary: #2b2d42;
+$secondary: #626b7a;
+$info: #edf2f4;
+$light: #ffffff;
+$success: #689571;
+$danger: #ba2b20;
+
+// widths
+$w-80: 80%;
+
+// box-shadows
+$box-shadow-sm: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+  rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+$box-shadow-lg: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+@import "../node_modules/bootstrap/scss/bootstrap";

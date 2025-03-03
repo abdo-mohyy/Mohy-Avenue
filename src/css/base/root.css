@@ -1,0 +1,237 @@
+:root {
+  /* colors */
+  --primary-color: #2b2d42;
+  --secondary-color: #8d99ae;
+  --info-color: #edf2f4;
+  --light-color: #ffffff;
+  --danger-color: #ba2b20;
+
+  --box-shadow-sm: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  --box-shadow-lg: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+* {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.family-arial {
+  font-family: Arial, "Cinzel Decorative", sans-serif;
+  font-style: normal;
+}
+.center-flex {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.between-flex {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+.pointer {
+  cursor: pointer !important;
+}
+.transition-3s {
+  transition: 0.3s linear !important;
+}
+.transition-5s {
+  transition: 0.5s linear !important;
+}
+
+/* Text */
+.cinzel-bold {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cinzel-black {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* text when hover */
+.hover-text-primary,
+.hover-text-secondary,
+.hover-text-info,
+.hover-text-light,
+.hover-text-danger,
+.hover-bg-primary,
+.hover-bg-secondary,
+.hover-bg-info,
+.hover-bg-light,
+.hover-bg-danger {
+  transition: 0.3s linear !important;
+}
+
+.hover-text-primary:hover {
+  color: var(--primary-color) !important;
+}
+.hover-text-secondary:hover {
+  color: var(--secondary-color) !important;
+}
+.hover-text-info:hover {
+  color: var(--info-color) !important;
+}
+.hover-text-light:hover {
+  color: var(--light-color) !important;
+}
+.hover-text-danger:hover {
+  color: var(--danger-color) !important;
+}
+
+/* background when hover */
+.hover-bg-primary:hover {
+  background-color: var(--primary-color) !important;
+}
+.hover-bg-secondary:hover {
+  background-color: var(--secondary-color) !important;
+}
+.hover-bg-info:hover {
+  background-color: var(--info-color) !important;
+}
+.hover-bg-light:hover {
+  background-color: var(--light-color) !important;
+}
+.hover-bg-danger:hover {
+  background-color: var(--danger-color) !important;
+}
+
+/* Dashboard */
+.dash-main-head {
+  text-align: center;
+}
+
+/* Custom in bootstrap */
+.z-4 {
+  z-index: 4 !important;
+}
+.z-5 {
+  z-index: 5 !important;
+}
+.z-6 {
+  z-index: 6 !important;
+}
+.z-7 {
+  z-index: 7 !important;
+}
+.z-8 {
+  z-index: 8 !important;
+}
+.z-9 {
+  z-index: 9 !important;
+}
+.z-10 {
+  z-index: 10 !important;
+}
+
+.mt-for-content-under-header {
+  margin-top: 135px;
+}
+@media (min-width: 601px) and (max-width: 767px) {
+  .mt-for-content-under-header {
+    margin-top: 129px;
+  }
+}
+@media (min-width: 328px) and (max-width: 600px) {
+  .mt-for-content-under-header {
+    margin-top: 163px;
+  }
+}
+
+@media (max-width: 327px) {
+  .mt-for-content-under-header {
+    margin-top: 195px;
+  }
+}
+
+/* Font Size */
+.fs-8px {
+  font-size: 8px;
+}
+.fs-10px {
+  font-size: 10px;
+}
+.fs-12px {
+  font-size: 12px;
+}
+.fs-14px {
+  font-size: 14px;
+}
+.fs-16px {
+  font-size: 16px;
+}
+.fs-18px {
+  font-size: 18px;
+}
+.fs-20px {
+  font-size: 20px;
+}
+.fs-22px {
+  font-size: 22px;
+}
+.fs-24px {
+  font-size: 24px;
+}
+.fs-26px {
+  font-size: 26px;
+}
+.fs-28px {
+  font-size: 28px;
+}
+.fs-30px {
+  font-size: 30px;
+}
+@media (min-width: 768px) {
+  .fs-md-8px {
+    font-size: 8px;
+  }
+  .fs-md-10px {
+    font-size: 10px;
+  }
+  .fs-md-12px {
+    font-size: 12px;
+  }
+  .fs-md-14px {
+    font-size: 14px;
+  }
+  .fs-md-16px {
+    font-size: 16px;
+  }
+  .fs-md-18px {
+    font-size: 18px;
+  }
+  .fs-md-20px {
+    font-size: 20px;
+  }
+  .fs-md-22px {
+    font-size: 22px;
+  }
+  .fs-md-24px {
+    font-size: 24px;
+  }
+  .fs-md-26px {
+    font-size: 26px;
+  }
+  .fs-md-28px {
+    font-size: 28px;
+  }
+  .fs-md-30px {
+    font-size: 30px;
+  }
+}
+
+.w-25px {
+  width: 25px !important;
+}
+.w-50px {
+  width: 50px !important;
+}
+.w-75px {
+  width: 75px !important;
+}
+.w-100px {
+  width: 100px !important;
+}

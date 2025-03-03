@@ -1,0 +1,23 @@
+.buton {
+  background-color: white;
+  outline: none;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.main-btn {
+  background-color: #c89600;
+  color: white;
+  transition: 0.3s;
+}
+.main-btn:hover {
+  color: #2d5d59;
+}
+
+@media (max-width: 768px) {
+  .small-btn {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+}

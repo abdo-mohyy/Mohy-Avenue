@@ -1,0 +1,19 @@
+.animated-404 {
+  font-size: 20rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  animation: float 3s ease-in-out infinite;
+  @media (max-width: 768px) {
+    font-size: 10rem;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}

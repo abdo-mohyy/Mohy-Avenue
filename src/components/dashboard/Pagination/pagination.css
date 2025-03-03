@@ -1,0 +1,50 @@
+@import "../../../css/base/root.css";
+.custom-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 10px;
+  font-size: 18px;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+}
+.pagination-links,
+.previous,
+.next {
+  padding: 5px 8px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+@media (max-width: 768px) {
+  .custom-pagination {
+    padding: 8px 5px;
+    font-size: 9px;
+  }
+  .pagination-links {
+    padding: 4px 4px;
+  }
+}
+.pagination-links {
+  margin: 6px;
+  color: var(--primary-color);
+}
+.pagination-links:not(.active-link):hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+.active-link {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}
+.active-link:hover {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}
+.previous,
+.next {
+  color: var(--light-color);
+  a {
+    color: var(--primary-color);
+  }
+}

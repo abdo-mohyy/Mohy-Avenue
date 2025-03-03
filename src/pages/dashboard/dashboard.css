@@ -1,0 +1,7 @@
+/* Add Product */
+.custom-progress {
+  height: 5px;
+}
+.custom-progress .inner-progress {
+  width: 0;
+}

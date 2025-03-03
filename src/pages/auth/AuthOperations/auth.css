@@ -1,0 +1,41 @@
+/* register && login forms */
+.auth-box {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .big-sentence {
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+.auth-card {
+  .submit:hover {
+    background-color: var(--primary-color) !important;
+    color: var(--light-color) !important;
+  }
+}
+
+@media (min-width: 577px) {
+  .custom-form {
+    width: 70% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-form {
+    width: 90% !important;
+  }
+}
+/* small screen */
+@media (max-width: 992px) {
+  .google-btn {
+    width: 100%;
+  }
+  .google-btn .btn-text {
+    float: left;
+    padding-left: 40px;
+  }
+}
+/* register && login forms */
