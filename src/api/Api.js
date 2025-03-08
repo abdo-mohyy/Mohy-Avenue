@@ -1,5 +1,6 @@
 // Main URL
-export const baseURL = `https://m-avenue-backend-production.up.railway.app/api`;
+export const baseURL = `https://m-avenue-backend-production.up.railway.app/`;
+// export const baseURL = `https://m-avenue-backend-production.up.railway.app/api`;
 
 // end of auth APIs
 export const registerAPI = `register`;
